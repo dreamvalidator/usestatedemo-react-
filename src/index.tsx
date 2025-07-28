@@ -16,6 +16,11 @@ import LoginFunctionComponent from './LoginFunctionComponent';
 import RegisterUser from './RegisterUser';
 import FormikDemo from './FormikDemo';
 import FormikValidation from './FormikValidation';  
+import ContextDemo from './Contextdemo';
+import { CookiesProvider } from 'react-cookie';
+import UserLogin from './UserLogin';
+import ReducerDemo from './ReducerDemo';
+import ReducerDemoFunction from './ReducerDemoFunction';
 
 
 const root = ReactDOM.createRoot(
@@ -23,7 +28,11 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <FormikValidation />
+
+ // <CookiesProvider>
+    <ReducerDemoFunction />
+ // </CookiesProvider>  
+  
   </React.StrictMode>
 );
 
